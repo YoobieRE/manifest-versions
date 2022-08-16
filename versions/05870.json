@@ -1,0 +1,22 @@
+[
+  {
+    "productId": 5870,
+    "manifest": "5DF4686EFA1656E1EEAF4D8347961F35F490063D",
+    "releaseDate": "2022-08-10T13:01:07.650Z"
+  },
+  {
+    "productId": 5870,
+    "manifest": "8210ED972A5EB531480FA7EEF30F98DB2B6B74D9",
+    "releaseDate": "2022-08-10T04:01:07.437Z"
+  },
+  {
+    "productId": 5870,
+    "manifest": "777133CDBFD9BCD9C289D719575732D76F8EAA9D",
+    "releaseDate": "2022-08-09T13:01:03.762Z"
+  },
+  {
+    "productId": 5870,
+    "manifest": "67A2C8F90745AE3FBF6B46ED1718151CC80D51BE",
+    "releaseDate": "2022-08-09T04:01:06.301Z"
+  }
+]

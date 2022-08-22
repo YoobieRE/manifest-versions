@@ -1,6 +1,12 @@
 [
   {
     "productId": 4865,
+    "manifest": "1674D6748FDB7556D6999C76ECB4ED6FB84DFCEE",
+    "releaseDate": "2022-08-22T12:01:16.464Z",
+    "digitalDistributionVersion": 37
+  },
+  {
+    "productId": 4865,
     "manifest": "BE3189B3B33ABAA0B4956DC6635E5C18DC20DCC4",
     "releaseDate": "2022-08-18T23:01:13.030Z",
     "digitalDistributionVersion": 37

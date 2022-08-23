@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "npm"
+          cache: npm
+          cache-dependency-path: validator/package-lock.json
       - run: cd validator && npm ci
       - run: npm start

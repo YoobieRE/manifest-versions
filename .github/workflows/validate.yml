@@ -7,6 +7,9 @@ name: Validate JSON
 jobs:
   validate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./validator
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -14,5 +17,5 @@ jobs:
           node-version: 16
           cache: npm
           cache-dependency-path: validator/package-lock.json
-      - run: cd validator && npm ci
+      - run: npm ci
       - run: npm start

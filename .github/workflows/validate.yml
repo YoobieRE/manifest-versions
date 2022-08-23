@@ -1,0 +1,17 @@
+on:
+  pull_request:
+    branches: [main]
+
+name: Validate JSON
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "npm"
+      - run: cd validator && npm ci
+      - run: npm start

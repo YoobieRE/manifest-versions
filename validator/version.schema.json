@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "IManifestVersion": {
+            "additionalProperties": false,
+            "properties": {
+                "communityDescription": {
+                    "type": "string"
+                },
+                "communitySemver": {
+                    "type": "string"
+                },
+                "digitalDistributionVersion": {
+                    "type": "number"
+                },
+                "manifest": {
+                    "type": "string"
+                },
+                "productId": {
+                    "type": "number"
+                },
+                "releaseDate": {
+                    "format": "date-time",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "manifest",
+                "productId"
+            ],
+            "type": "object"
+        }
+    },
+    "items": {
+        "$ref": "#/definitions/IManifestVersion"
+    },
+    "type": "array"
+}

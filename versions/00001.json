@@ -4,5 +4,8 @@
     "manifest": "CE7401DE4BA1D1D00103D491D0690E801FA20B6C",
     "releaseDate": "2022-08-09T04:01:01.956Z",
     "digitalDistributionVersion": 2
+  },
+  {
+    "bad": "should fail validation" 
   }
 ]

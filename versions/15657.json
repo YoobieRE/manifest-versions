@@ -1,6 +1,11 @@
 [
   {
     "productId": 15657,
+    "manifest": "2F190A04C366359100F2CC074C9DCC79974C6521",
+    "releaseDate": "2022-08-25T18:01:12.711Z"
+  },
+  {
+    "productId": 15657,
     "manifest": "00B46A2858479883A5E9B24CD8F6AFDF3162DFE7",
     "releaseDate": "2022-08-12T14:01:58.030Z"
   }
